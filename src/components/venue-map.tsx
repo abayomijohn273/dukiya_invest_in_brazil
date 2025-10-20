@@ -38,7 +38,7 @@ export default function VenueMap() {
                 <Calendar className="w-7 h-7 text-tertiary" />
               </div>
               <h3 className="text-xl font-display text-gray-900 mb-3">Event Date</h3>
-              <p className="text-4xl font-display text-primary mb-2">Dec 3</p>
+              <p className="text-4xl font-display text-primary mb-2">Dec 3 - 7</p>
               <p className="text-gray-600">2025</p>
             </div>
 

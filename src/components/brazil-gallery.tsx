@@ -22,7 +22,7 @@ export default function BrazilGallery() {
     <section className="w-full">
       <div className="grid grid-cols-2 lg:grid-cols-4">
         {images.map((image, index) => (
-          <div key={index} className="relative aspect-square overflow-hidden h-[28rem] lg:h-[30rem] w-full">
+          <div key={index} className="relative aspect-square overflow-hidden h-[20rem] md:h-[28rem] lg:h-[30rem] w-full">
             <img
               src={image.src || "/placeholder.svg"}
               alt={image.alt}

@@ -57,7 +57,7 @@ export default function WhyBrazil() {
                 Why <span className="text-primary">Brazil?</span>
               </h2>
               <p className="text-lg text-gray-600 font-light leading-relaxed mb-8">
-                In 2024, <strong>Lukman Shobowale and Bayo Lawal</strong> visited Brazil. What they discovered was far
+                In 2024, <strong>Lukman Shobowale, Cofounder Dukiya Investment</strong> visited Brazil. What they discovered was far
                 beyond beaches and football – Brazil is a{" "}
                 <strong>global powerhouse in agriculture and real estate.</strong>
               </p>

@@ -41,32 +41,32 @@ function CountdownTimer() {
   return (
     <div className="flex gap-4 md:gap-6">
       <div className="flex flex-col items-center">
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 min-w-[70px]">
-          <span className="text-3xl md:text-4xl font-bold text-white">{timeLeft.months}</span>
+        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 w-[56px] md:w-[70px]">
+          <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">{timeLeft.months}</span>
         </div>
         <span className="text-white/70 text-xs mt-2 uppercase tracking-wider">Months</span>
       </div>
       <div className="flex flex-col items-center">
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 min-w-[70px]">
-          <span className="text-3xl md:text-4xl font-bold text-white">{timeLeft.days}</span>
+        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 w-[56px] md:w-[70px]">
+          <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">{timeLeft.days}</span>
         </div>
         <span className="text-white/70 text-xs mt-2 uppercase tracking-wider">Days</span>
       </div>
       <div className="flex flex-col items-center">
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 min-w-[70px]">
-          <span className="text-3xl md:text-4xl font-bold text-white">{timeLeft.hours}</span>
+        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 w-[56px] md:w-[70px]">
+          <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">{timeLeft.hours}</span>
         </div>
         <span className="text-white/70 text-xs mt-2 uppercase tracking-wider">Hours</span>
       </div>
       <div className="flex flex-col items-center">
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 min-w-[70px]">
-          <span className="text-3xl md:text-4xl font-bold text-white">{timeLeft.minutes}</span>
+        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 w-[56px] md:w-[70px]">
+          <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">{timeLeft.minutes}</span>
         </div>
         <span className="text-white/70 text-xs mt-2 uppercase tracking-wider">Minutes</span>
       </div>
       <div className="flex flex-col items-center">
-        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 min-w-[70px]">
-          <span className="text-3xl md:text-4xl font-bold text-white">{timeLeft.seconds}</span>
+        <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg px-4 py-3 w-[56px] md:w-[70px]">
+          <span className="text-2xl md:text-3xl lg:text-4xl font-bold text-white">{timeLeft.seconds}</span>
         </div>
         <span className="text-white/70 text-xs mt-2 uppercase tracking-wider">Seconds</span>
       </div>
@@ -100,7 +100,7 @@ export default function Hero() {
           <Facebook className="w-5 h-5" />
         </a>
         <a
-          href="http://wa.me/2349062019993"
+          href="https://wa.me/5511933666182"
           target="_blank"
           rel="noopener noreferrer"
           className="w-12 h-12 rounded-full bg-black/60 backdrop-blur-sm flex items-center justify-center text-white hover:bg-[#fedf00] hover:text-black transition-all"
@@ -119,7 +119,7 @@ export default function Hero() {
         </a>
       </motion.div>
 
-      <div className="container mx-auto px-6 lg:px-8 relative z-10 pt-32 pb-32">
+      <div className="container mx-auto px-6 lg:px-8 relative z-10 pt-32 pb-32 overflow-hidden">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Content */}
           <motion.div
@@ -134,7 +134,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-white/90 text-sm md:text-base tracking-wider uppercase font-medium"
             >
-              December 3rd, 2025 • São Paulo, Brazil
+              December 3rd - 7th, 2025 • São Paulo, Brazil
             </motion.p>
 
             <motion.h1
@@ -174,7 +174,7 @@ export default function Hero() {
               <Button
                 size="lg"
                 onClick={() => scrollToSection("register")}
-                className="cursor-pointer bg-[#fedf00] hover:bg-[#fedf00]/90 text-black font-semibold px-8 py-6 text-base rounded-full group transition-all"
+                className="cursor-pointer w-full md:w-auto bg-[#fedf00] hover:bg-[#fedf00]/90 text-black font-semibold px-8 py-6 text-base rounded-full group transition-all"
               >
                 Register Now
                 <span className="ml-2 w-6 h-6 rounded-full bg-black flex items-center justify-center group-hover:translate-x-1 transition-transform">
@@ -185,7 +185,7 @@ export default function Hero() {
                 size="lg"
                 variant="outline"
                 onClick={() => scrollToSection("why-invest")}
-                className="cursor-pointer border-2 border-white text-primary hover:bg-white hover:text-black px-8 py-6 text-base rounded-full transition-all"
+                className="cursor-pointer w-full md:w-auto border-2 border-white text-primary hover:bg-white hover:text-black px-8 py-6 text-base rounded-full transition-all"
               >
                 Learn More
               </Button>

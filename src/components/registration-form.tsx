@@ -2,9 +2,6 @@
 
 import type React from "react"
 
-import { Button } from "@//components/ui/button"
-import { Input } from "@//components/ui/input"
-import { Label } from "@//components/ui/label"
 import { motion, useInView } from "framer-motion"
 import { useRef, useState } from "react"
 
@@ -52,94 +49,13 @@ export default function RegistrationForm() {
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="max-w-2xl mx-auto bg-white rounded-2xl p-8 md:p-12 shadow-2xl"
+          className="max-w-2xl mx-auto bg-[#eeeff4] rounded-2xl p-8 md:p-12 shadow-2xl"
         >
-          <h3 className="text-3xl font-display text-primary mb-8 text-center">Register for the Conference</h3>
+          <h3 className="text-3xl font-display text-primary mb-2 text-center">Register for the Conference</h3>
 
-          <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <Label htmlFor="fullName" className="text-gray mb-2 block">
-                Full Name *
-              </Label>
-              <Input
-                id="fullName"
-                type="text"
-                required
-                value={formData.fullName}
-                onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
-                className="w-full"
-                placeholder="Enter your full name"
-              />
-            </div>
+          <iframe aria-label='InvestBrazil2025 Registration' frameBorder="0" height={750} width={"100%"} className="border-none" src='https://forms.zohopublic.com/adminduki1/form/InvestBrazil2025Registration/formperma/bzzqBRFui3UVTwnR8F2reibUAJ71SvfCVXD42oDmVr4'></iframe>
 
-            <div>
-              <Label htmlFor="email" className="text-gray mb-2 block">
-                Email Address *
-              </Label>
-              <Input
-                id="email"
-                type="email"
-                required
-                value={formData.email}
-                onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                className="w-full"
-                placeholder="your.email@example.com"
-              />
-            </div>
-
-            <div>
-              <Label htmlFor="phone" className="text-gray mb-2 block">
-                Phone Number *
-              </Label>
-              <Input
-                id="phone"
-                type="tel"
-                required
-                value={formData.phone}
-                onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                className="w-full"
-                placeholder="+234 XXX XXX XXXX"
-              />
-            </div>
-
-            <div>
-              <Label htmlFor="company" className="text-gray mb-2 block">
-                Company/Organization
-              </Label>
-              <Input
-                id="company"
-                type="text"
-                value={formData.company}
-                onChange={(e) => setFormData({ ...formData, company: e.target.value })}
-                className="w-full"
-                placeholder="Your company name"
-              />
-            </div>
-
-            <div>
-              <Label htmlFor="role" className="text-gray mb-2 block">
-                Your Role
-              </Label>
-              <Input
-                id="role"
-                type="text"
-                value={formData.role}
-                onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                className="w-full"
-                placeholder="e.g., Investor, Developer, Real Estate Professional"
-              />
-            </div>
-
-            <Button
-              type="submit"
-              size="lg"
-              className="w-full bg-secondary hover:bg-secondary/90 text-white text-lg py-6 cursor-pointer"
-            >
-              Register Now
-            </Button>
-          </form>
-
-          <p className="text-sm text-gray text-center mt-6">
+          <p className="text-sm text-gray text-center mt-2">
             By registering, you agree to receive updates about the Invest in Brazil Conference 2025
           </p>
         </motion.div>

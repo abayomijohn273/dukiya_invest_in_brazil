@@ -43,7 +43,7 @@ export default function Footer() {
             <h4 className="text-lg font-display mb-4">Contact</h4>
             <ul className="space-y-2 text-white/80">
               <li>Email: info@dukiyang.com</li>
-              <li>Phone: (+234) 906 201 9993</li>
+              <li>Phone: +55(11)93366-6182</li>
               <li>São Paulo, Brazil</li>
             </ul>
           </div>

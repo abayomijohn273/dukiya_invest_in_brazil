@@ -44,7 +44,7 @@ export default function SpeakerCard({ speaker, index, isInView }: SpeakerCardPro
               <img
                 src={speaker.image || "/placeholder.svg?height=500&width=400"}
                 alt={speaker.name}
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500"
+                className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
