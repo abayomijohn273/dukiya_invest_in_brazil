@@ -4,9 +4,9 @@ import { motion, useInView } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { useRef } from "react"
-import ConcretoLogo from "../public/capital_concreto.svg"
-import DukiyaLogo from "../public/dukiya.svg"
-import RRLogo from "../public/rr.png"
+import ConcretoLogo from "../../public/capital_concreto.svg"
+import DukiyaLogo from "../../public/dukiya.svg"
+import RRLogo from "../../public/rr.png"
 
 export default function Partners() {
   const ref = useRef(null)

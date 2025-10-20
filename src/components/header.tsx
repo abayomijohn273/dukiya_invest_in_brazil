@@ -66,14 +66,14 @@ export default function Header() {
           </Button>
         </nav>
 
-        <button className="md:hidden" onClick={() => scrollToSection("register")}>
+     
           <Button
             variant="outline"
-            className="font-medium transition-all border-2 border-white text-white hover:bg-white hover:text-black rounded-full px-6 bg-transparent"
+            onClick={() => scrollToSection("register")}
+            className="md:hidden cursor-pointer font-medium transition-all border-2 border-white text-white hover:bg-white hover:text-black rounded-full px-6 bg-transparent"
           >
             Register
           </Button>
-        </button>
       </div>
     </motion.header>
   )
