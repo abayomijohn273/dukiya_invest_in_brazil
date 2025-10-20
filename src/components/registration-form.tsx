@@ -53,7 +53,7 @@ export default function RegistrationForm() {
         >
           <h3 className="text-3xl font-display text-primary mb-2 text-center">Register for the Conference</h3>
 
-          <iframe aria-label='InvestBrazil2025 Registration' frameBorder="0" height={750} width={"100%"} className="border-none" src='https://forms.zohopublic.com/adminduki1/form/InvestBrazil2025Registration/formperma/bzzqBRFui3UVTwnR8F2reibUAJ71SvfCVXD42oDmVr4'></iframe>
+          <iframe aria-label='InvestBrazil2025 Registration' frameBorder="0" height={1000} width={"100%"} className="border-none" src='https://forms.zohopublic.com/adminduki1/form/InvestBrazil2025Registration/formperma/bzzqBRFui3UVTwnR8F2reibUAJ71SvfCVXD42oDmVr4'></iframe>
 
           <p className="text-sm text-gray text-center mt-2">
             By registering, you agree to receive updates about the Invest in Brazil Conference 2025
