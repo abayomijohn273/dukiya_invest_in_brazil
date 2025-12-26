@@ -1,6 +1,6 @@
-import type React from "react"
 import type { Metadata } from "next"
 import { Urbanist } from "next/font/google"
+import type React from "react"
 import "./globals.css"
 
 const urbanist = Urbanist({
@@ -12,7 +12,7 @@ const urbanist = Urbanist({
 export const metadata: Metadata = {
   title: "Invest in Brazil Conference 2025 | Gateway for Nigerian Investors",
   description:
-    "Join us on December 3rd, 2025 in São Paulo to explore Brazil's real estate market. A gateway for Nigerian investors to discover undervalued properties and exponential opportunities.",
+    "Join us on February 3rd - 6th, 2026 in São Paulo to explore Brazil's real estate market. A gateway for Nigerian investors to discover undervalued properties and exponential opportunities.",
     generator: 'v0.app'
 }
 
