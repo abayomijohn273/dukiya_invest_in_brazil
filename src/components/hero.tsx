@@ -15,7 +15,7 @@ function CountdownTimer() {
   })
 
   useEffect(() => {
-    const targetDate = new Date("2026-02-03T00:00:00").getTime()
+    const targetDate = new Date("2026-02-23T00:00:00").getTime()
 
     const updateCountdown = () => {
       const now = new Date().getTime()
@@ -134,7 +134,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-white/90 text-sm md:text-base tracking-wider uppercase font-medium"
             >
-              February 3rd - 6th, 2026 • São Paulo, Brazil
+              February 23rd - 25th, 2026 • São Paulo, Brazil
             </motion.p>
 
             <motion.h1
